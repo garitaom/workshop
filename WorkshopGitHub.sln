@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{088D1129-8168-4FF1-A326-B77D9F70D086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialUtils", "src\FinancialUtils\FinancialUtils.csproj", "{59DED983-5982-4303-86B4-AF84EB917E0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1BECD9E9-61FA-49C6-AB80-BBEF81502353}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialUtils.Tests", "tests\FinancialUtils.Tests\FinancialUtils.Tests.csproj", "{FB621463-253E-4504-AF73-40CE0E041C01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59DED983-5982-4303-86B4-AF84EB917E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59DED983-5982-4303-86B4-AF84EB917E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59DED983-5982-4303-86B4-AF84EB917E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59DED983-5982-4303-86B4-AF84EB917E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB621463-253E-4504-AF73-40CE0E041C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB621463-253E-4504-AF73-40CE0E041C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB621463-253E-4504-AF73-40CE0E041C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB621463-253E-4504-AF73-40CE0E041C01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59DED983-5982-4303-86B4-AF84EB917E0C} = {088D1129-8168-4FF1-A326-B77D9F70D086}
+		{FB621463-253E-4504-AF73-40CE0E041C01} = {1BECD9E9-61FA-49C6-AB80-BBEF81502353}
+	EndGlobalSection
+EndGlobal
