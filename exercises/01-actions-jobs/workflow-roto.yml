@@ -10,7 +10,7 @@ name: Broken CI
 
 on:
   push:
-    branch:                    # ERROR 1
+    branchs:                    # ERROR 1
       - main
 
 env:
@@ -18,7 +18,7 @@ env:
 
 jobs:
   format:
-    runs-on: ubuntu-latests    # ERROR 2
+    runs-on: ubuntu-latest    # ERROR 2
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-dotnet@v4
